@@ -1,0 +1,256 @@
+
+<!DOCTYPE html> 
+<html>
+<head>
+<style>
+       /* Set the size of the div element that contains the map */
+      #map {
+        height: 572px;  /* The height is 400 pixels */
+        width: 145%;  /* The width is the width of the web page */
+       }
+    </style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<h1>Trishal Govt. Nazrul Academy</h1>
+
+  <img src="nazrulacademyjpg.jpg" width="1330" height="400"> 
+
+<hr> 
+</br>
+
+<div class="topnav">
+
+<a href="#home">Home</a> &nbsp &nbsp
+<a href="About Us.html">About Us</a> &nbsp &nbsp
+<a href="Contact.html">Contact</a> &nbsp &nbsp
+<a href="Registration.html">Registration</a> &nbsp &nbsp
+<a href="https://www.youtube.com/" target="_blank"> Youtube</a> &nbsp &nbsp
+<a href="https://www.google.com/" target="_blank"> Google </a> &nbsp &nbsp
+<a href="Profile.html">Profile</a> &nbsp &nbsp
+<a href="Login.html">Login</a> &nbsp &nbsp
+</div>
+<hr>
+
+<div class="news">
+<p>সকল ছাত্র-ছাত্রী গণের অবগতির জন্য জানানো যাইতেছে যে, আগামী ০৬/০৭/২০১৯ ইং হইতে অর্ধ-বার্ষিক/প্রাক-নির্বাচনী পরীক্ষা অনুষ্ঠিত হইবে। সকল বকেয়া পরিশোধ করে প্রবেশ পত্র সংগ্রহ করার জন্য আহব্বান করা হইল।
+</p>
+</div>
+<hr>
+<div class="row">
+  <div class="column side">
+  
+
+
+
+                            <h2>Attendence</h2>   
+                            <div class="upperDiv">
+                                <div style="float: left; width:70%">
+                                    <p>Total Student <b> 1099 </b></p>
+                                    <p>Today Present <b> :0 </b></p>
+                                    <p>Yesterday Present <b> :0 </b></p><br><br>
+                                    <a href="/attendences/student_attendence">Student Attendence</a><br>
+                                   <a href="/attendences/school_attendence">School Attendence</a>
+
+
+
+
+
+    <!--The div element for the map -->
+    <div id="map"></div>
+    <script>
+// Initialize and add the map
+function initMap() {
+  // The location of Uluru
+  var uluru = {lat: -25.344, lng: 131.036};
+  // The map, centered at Uluru
+  var map = new google.maps.Map(
+      document.getElementById('map'), {zoom: 4, center: uluru});
+  // The marker, positioned at Uluru
+  var marker = new google.maps.Marker({position: uluru, map: map});
+}
+    </script>
+    <!--Load the API from the specified URL
+    * The async attribute allows the browser to render the page while the API loads
+    * The key parameter will contain your own API key (which is not needed for this tutorial)
+    * The callback parameter executes the initMap() function
+    -->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCSqiy76BaT0gQbs6vrgHKgZ4QStDgjmwI &callback=initMap">
+    </script>
+
+
+
+                                </div>
+                                 <div class="clear">&nbsp;</div>
+                            </div>
+
+
+                       
+
+   
+  </div>
+  
+  <div class="column middle">
+<h2>Image Gallery</h2>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="campus.jpg">
+      <img src="campus.jpg" alt="Campus" width="600" height="400">
+    </a>
+    <div class="desc">Campus Picture </div>
+  </div>
+</div>
+
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="teacher and student.jpg">
+      <img src="teacher and student.jpg" alt="Forest" width="600" height="400">
+    </a>
+    <div class="desc">Teacher and Student</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="auditorium.jpg">
+      <img src="auditorium.jpg" alt="Northern Lights" width="600" height="400">
+    </a>
+    <div class="desc">Auditorium of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="program.jpg">
+      <img src="program.jpg" alt="Mountains" width="600" height="400">
+    </a>
+    <div class="desc">program of the image here</div>
+  </div>
+</div>
+
+<div class="clearfix"></div>
+
+<div style="padding:6px;">
+<p>ত্রিশাল সরকারি নজরুল একাডেমী ওয়েবসাইট খুলে সরকারের ডিজিটালাইজেশন কার্যক্রমে অন্তর্ভুক্ত হয়েছে এবং সরকারের ভিশন ২০২১ এর সাথে একাত্মতা প্রকাশ করেছে। 
+ত্রিশাল সরকারি নজরুল একাডেমী ওয়েবসাইটটিতে যে তথ্য, উপাত্ত থাকবে তা অবাধ তথ্য পাওয়ার অধিকার নিশ্চিত করবে এবং তা সবার কাছে সহজ লভ্য হবে। এটা নিশ্চিত যে,
+ আমাদেরকে ইনফরমেশন হাইওয়েতে উঠতে গেলে, চলতে গেলে তথ্য প্রযুক্তির সর্বোচ্চ ব্যবহার নিশ্চিত করতে হবে। তথ্য প্রযুক্তির ব্যবহার নিশ্চিত করণের মাধ্যমে বিভিন্ন সরকারী দপ্তর,
+ পরিদপ্তর ও অধিদপ্তরের কার্যক্রমে সচ্ছতা, গতিশীলতা, জবাবদিহিতা নিশ্চিত হবে এবং সেবার মান উন্নত হবে ও দুর্নীতি সহনীয় মাত্রায় নেমে আসবে বলে আমার দৃঢ় বিশ্বাস। পরিশেষে ত্রিশাল নজরুল 
+একাডেমী সরকারি  উচ্চ বিদ্যালয়ের ওয়েবসাইটির সফলতা ও সর্বোত্তম ব্যবহার নিশ্চিত হোক এই কামনা করেই শেষ করছি।
+</p>
+<p>প্রধান শিক্ষক</p>
+<p>ত্রিশাল সরকারি নজরুল একাডেমী</p>
+
+</div>
+
+  </div>
+  
+  <div class="column side">
+
+<div div class="s">
+<label for="uname">Admission Start</label>
+<p id="demo"></p>
+</div>
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Jan 5, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+  + minutes + "m " + seconds + "s ";
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+    <div class="month">      
+  <ul>
+    <li class="prev">&#10094;</li>
+    <li class="next">&#10095;</li>
+    <li>
+      July<br>
+      <span style="font-size:18px">2020</span>
+    </li>
+  </ul>
+</div>
+
+<ul class="weekdays">
+  <li>Mon</li>
+  <li>Tue</li>
+  <li>Wed</li>
+  <li>Thus</li>
+  <li>Fri</li>
+  <li>Sat</li>
+  <li>Sun</li>
+</ul>
+
+<ul class="days">  
+  <li>1</li>
+  <li>2</li>
+  <li>3</li>
+  <li>4</li>
+  <li>5</li>
+  <li>6</li>
+  <li>7</li>
+  <li><span class="active">8</span></li>
+  <li>9</li>
+  <li>10</li>
+  <li>11</li>
+  <li>12</li>
+  <li>13</li>
+  <li>14</li>
+  <li>15</li>
+  <li>16</li>
+  <li>17</li>
+  <li>18</li>
+  <li>19</li>
+  <li>20</li>
+  <li>21</li>
+  <li>22</li>
+  <li>23</li>
+  <li>24</li>
+  <li>25</li>
+  <li>26</li>
+  <li>27</li>
+  <li>28</li>
+  <li>29</li>
+  <li>30</li>
+  <li>31</li>
+</ul>
+  </div>
+
+
+
+</div>
+
+
+<hr>
+<div class="footer">
+<h3>All Rights © Reserved 2020</h3>
+</div>
+
+</body>
+</html>
